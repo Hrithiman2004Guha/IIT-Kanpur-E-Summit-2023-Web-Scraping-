@@ -83,5 +83,34 @@ The project directory is structured as follows:
 ## Usage
 
 1. Clone this repository to your local machine:
+```git clone https://github.com/Derik714/IIT-Kanpur-E-Summit-2023-Web-Scraping-.git```
+
+2. Install the required Python packages using `pip`. The Packages are mentioned in requirements.txt"
+
+3. Download and configure GeckoDriver for Selenium. Update the Firefox driver path in the `data.py` script if necessary.
+
+4. Run the web scraping code:
+
+5. The code will scrape daily price data for commodities from August 1 to September 30, saving the results in the `August_CSV` and `September_CSV` folders.
+
+## Output
+
+The scraped data is saved in CSV files. The final combined dataset is stored in `retail_prices_data_aug_to_sep.csv`.
+
+## Contributing
+
+Feel free to contribute to this project by opening issues, suggesting improvements, or submitting pull requests.
+
+## License
+
+This project is licensed under the [GNU Public License](LICENSE).
+
+---
+
+**Note:** This web scraping project should be used in compliance with legal and ethical considerations, respecting the terms of use of the selected websites, and ensuring that the data is used for non-commercial and research purposes.
+
+
+
+
 
 
