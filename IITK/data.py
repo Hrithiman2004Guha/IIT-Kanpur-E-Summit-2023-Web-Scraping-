@@ -12,7 +12,7 @@ import time
 import pandas as pd
 url = "https://fcainfoweb.nic.in/reports/report_menu_web.aspx" #URL of the given website for Web Scraping
 
-for m in range(26,36): #Since from August 1 to September 30, a total of 61 days are there, we are running the loop for 61 times
+for m in range(1,62): #Since from August 1 to September 30, a total of 61 days are there, we are running the loop for 61 times
     try:
         date = "//2023"#The specified date for which the data is to be extracted
         #Below we are formatting the date string for the Web Scraping
