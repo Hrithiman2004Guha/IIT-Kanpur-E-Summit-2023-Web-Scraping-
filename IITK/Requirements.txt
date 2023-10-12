@@ -1,0 +1,5 @@
+The following are the Packages used:
+1) Selenium: use pip install selenium to install the pacakge. Read documentation from this link :https://selenium-python.readthedocs.io/
+2) BeautifulSoup4 : use pip install beautifulsoup4 to install the package. Read documentation from here:https://beautiful-soup-4.readthedocs.io/en/latest/
+3) Requests: use pip install requests to install the package. Read documentation from here:https://requests.readthedocs.io/en/latest/
+4) Pandas: use pip install Pandas. Read documentation from here:https://pandas.pydata.org/docs/
