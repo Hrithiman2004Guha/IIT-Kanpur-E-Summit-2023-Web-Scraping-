@@ -55,4 +55,33 @@ Data analysis reports and visualizations
 Documentation of the web scraping process
 Project Benefits:
 This web scraping project will provide data that can be used by various stakeholders, including policymakers, farmers, traders, and researchers, to make informed decisions regarding pricing, supply chain management, and agricultural planning. It will help identify trends and patterns in commodity prices, contributing to better resource allocation and market insights.
+# Daily Price Data Web Scraping Project
+
+This Python project is designed to scrape daily price data for various commodities in different states from August 1 to September 30, 2023. The collected data is organized into CSV files for each day and grouped into folders for August and September.
+
+## Prerequisites
+
+Before running the code, ensure you have the following dependencies installed:
+- Python 3
+- Selenium
+- Beautiful Soup 4
+- Firefox web browser
+- GeckoDriver (for Selenium)
+
+Install the Python packages using `pip` and download the [GeckoDriver](https://github.com/mozilla/geckodriver) for your operating system.
+
+## Project Structure
+
+The project directory is structured as follows:
+
+- `August_CSV/`: Folder to store CSV files for August
+- `September_CSV/`: Folder to store CSV files for September
+- `error.log`: Log file for recording errors during web scraping
+- `requirements.txt`: List of Python package dependencies
+- `data.py`: Main Python code for web scraping
+
+## Usage
+
+1. Clone this repository to your local machine:
+
 
